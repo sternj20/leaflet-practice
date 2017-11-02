@@ -20,7 +20,7 @@ router.route('/pushpins')
             if (err) {
                 res.status(500).send(err);
             } else {
-                res.json(pushpins);
+                res.json(pushpins)
             }
         })
     });
